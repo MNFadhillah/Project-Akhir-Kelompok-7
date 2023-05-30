@@ -1,147 +1,141 @@
 body {
-	margin: 0;
-	padding: 0;
-	font-family: sans-serif;
-	height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  height: 100%;
 }
 
 #head {
-	background-color: red;
-	color: #fff;
-	display: flex;
-	align-items: center;
-	padding: 1px;
-	position: fixed;
-	width: 100%;
+  background-color: red;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 1px;
+  position: fixed;
+  width: 100%;
 }
 
 .logo-container {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .logo-container img {
-	height: 60px;
-	margin: 10px;
+  height: 60px;
+  margin: 10px;
 }
 
-nav div{
-	margin: 0;
-	padding: 1px;
-	background: #FFF6C3;
-	display: flex;
-	flex-wrap: wrap;
-}
-
-#item{
-	text-decoration: none;
-	color: black;
-	font-size: 18px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	padding: 20px;
-	border-radius: 10px;
-	background-color: #FFDB89;
-}
-
-nav a:hover {
-	color: #ccc;
-}
-
-#sidebar {
-	width: 20%;
-	height: 500px;
-	margin-left: 0px;
-	background-color: #FFDB89;
-	position: fixed;
-	margin-top: 158px;
-	transition: 0.5s;
-	overflow-y: auto;
-
-}
-.kolom{
-	padding: 10px;
-	background-color: white;
-	border-color: 2px green;
-	border: 2px solid black;
-	margin-left: 4px;
-	margin-right: 4px;
-	margin-top: 10px;
-
-}
-.kolom2{
-	padding: 10px;
-	background-color: white;
-	border: 2px solid black;
-	margin-left: 4px;
-	margin-right: 4px;
-	margin-top: 10px;
-
-}
-.kolom ol li{
-	margin-right: 2px;
-	
-}
-.kolom2 ol li{
-	margin-right: 2px;
-	
-}
-#content{
-	width: 79.3%;
-	height: auto;
-	margin-left: 20%;
-	margin-top: 158px;
-	padding: 2px;
-	background: rgb(192, 192, 192);
-	position: absolute;
-	z-index: -1;
-	transition: 0.5s;
-	border: 2px solid black;
-	text-align: justify;
-}
-#nav{
-	top: 100px;
-	position: fixed;
-	width: 100%;
-	
-}
-#jarak{
-	margin-right: 25px;
-	padding-left: 10px;
-	height: 50px;
+nav div {
+  margin: 0;
+  padding: 1px;
+  background: #fff6c3;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #item {
-	height: 10px;
-	padding-top: 10px;
-	margin-top: 5px;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffdb89;
 }
 
-#search{
-	background-color: #FFDB89;
-	height: 30px;
-	padding: 5px 5px;
-	border-radius: 50px;
-	margin-left: 83% ;
-	margin-top: 5px;
-	position: absolute;
+nav a:hover {
+  color: #ccc;
 }
- #search input{
-	border: none;
-	outline: none;
-	background: none;
- }
- #sidebar a{
-	color: black;
- }
 
- #login {
-	margin-left: 90%;
-	width : 80px;
-	padding: 5px;
-	background: #FFDD83;
-	border-radius: 50px;
-	position: absolute;
-	font-size: 15px;
-	color:rgb(33, 30, 30);	
- }
+#sidebar {
+  width: 20%;
+  height: 500px;
+  margin-left: 0px;
+  background-color: #ffdb89;
+  position: fixed;
+  margin-top: 158px;
+  transition: 0.5s;
+  overflow-y: auto;
+}
+.kolom {
+  padding: 10px;
+  background-color: white;
+  border-color: 2px green;
+  border: 2px solid black;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-top: 10px;
+}
+.kolom2 {
+  padding: 10px;
+  background-color: white;
+  border: 2px solid black;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-top: 10px;
+}
+.kolom ol li {
+  margin-right: 2px;
+}
+.kolom2 ol li {
+  margin-right: 2px;
+}
+#content {
+  width: 79.3%;
+  height: auto;
+  margin-left: 20%;
+  margin-top: 158px;
+  padding: 2px;
+  background: rgb(192, 192, 192);
+  position: absolute;
+  z-index: -1;
+  transition: 0.5s;
+  border: 2px solid black;
+  text-align: justify;
+}
+#nav {
+  top: 100px;
+  position: fixed;
+  width: 100%;
+}
+#jarak {
+  margin-right: 25px;
+  padding-left: 10px;
+  height: 50px;
+}
+
+#item {
+  height: 10px;
+  padding-top: 10px;
+  margin-top: 5px;
+}
+
+#search {
+  background-color: #ffdb89;
+  height: 30px;
+  padding: 5px 5px;
+  border-radius: 50px;
+  margin-left: 83%;
+  margin-top: 5px;
+  position: absolute;
+}
+#search input {
+  border: none;
+  outline: none;
+  background: none;
+}
+#sidebar a {
+  color: black;
+}
+
+#login {
+  margin-left: 90%;
+  width: 80px;
+  padding: 5px;
+  background: #ffdd83;
+  border-radius: 50px;
+  position: absolute;
+  font-size: 15px;
+  color: rgb(33, 30, 30);
+}
